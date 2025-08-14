@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GNR Agro Agency</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Smooth‑scroll behavior for in‑page links -->
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-green-50 text-gray-800">
+
+  <!-- ===== Sticky Navigation Bar ===== -->
+  <nav class="bg-green-1000 text-white sticky top-0 z-50 shadow">
+    <div class="max-w-5xl mx-auto px-6 py-3 flex justify-between items-center">
+      <a href="#about" class="text-xl font-bold tracking-wide">GNR Agro Agency</a>
+     
+    </div>
+  </nav>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="text-center py-14 px-6">
+    <h1 class="text-3xl font-bold mb-3">Your One‑Stop Agri Partner</h1>
+    <p class="max-w-2xl mx-auto">
+      At <strong>GNR Agro Agency</strong> we’ve supported farmers with
+      top‑quality <em>seeds, fertilizers, and pesticides</em> since 2010.
+      Our mission is simple: healthier crops, higher yields, greener tomorrow.
+    </p>
+    <img src="https://images.unsplash.com/photo-1600250409430-b4c0df1c36a3"
+         alt="Farmer spraying field"
+         class="mx-auto mt-10 rounded-lg shadow-lg w-full max-w-md">
+  </section>
+
+  <!-- ===== Products Section ===== -->
+  <section id="products" class="bg-white py-14">
+    <h2 class="text-center text-3xl font-bold mb-10">Our Product Range</h2>
+    <div class="max-w-5xl mx-auto px-6">
+
+      <!-- Seeds -->
+      <div class="mb-14">
+        <h3 class="text-2xl font-semibold mb-6">Seeds</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-green-100 p-6 rounded-lg shadow">
+            <h4 class="font-bold text-lg">Samanth rice Seeds (10 kg)</h4>
+            <p class="mt-2">High‑yield, drought‑tolerant hybrid for Kharif season.</p>
+            <p class="text-green-700 font-bold mt-3">₹1,100</p>
+            <a href="https://wa.me/918985919818?text=I%20want%20to%20buy%20Hybrid%20Maize%20Seeds%20(5kg)"
+               class="inline-block mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+              Buy Now
+            </a>
+          </div>
+          <!-- Duplicate / edit cards as needed -->
+        </div>
+      </div>
+
+      <!-- Fertilizers -->
+      <div class="mb-14">
+        <h3 class="text-2xl font-semibold mb-6">Fertilizers</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-green-100 p-6 rounded-lg shadow">
+            <h4 class="font-bold text-lg">NPK 20‑20‑20 (50 kg)</h4>
+            <p class="mt-2">Balanced nutrient mix for vigorous vegetative growth.</p>
+            <p class="text-green-700 font-bold mt-3">₹1,850</p>
+            <a href="https://wa.me/918985919818?text=I%20want%20to%20buy%20NPK%2020-20-20%20(50kg)"
+               class="inline-block mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+              Buy Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pesticides -->
+      <div>
+        <h3 class="text-2xl font-semibold mb-6">Pesticides</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div class="bg-green-100 p-6 rounded-lg shadow">
+            <h4 class="font-bold text-lg">EcoNeem Spray (1 L)</h4>
+            <p class="mt-2">Organic neem‑based insecticide safe for pollinators.</p>
+            <p class="text-green-700 font-bold mt-3">₹320</p>
+            <a href="https://wa.me/918985919818?text=I%20want%20to%20buy%20EcoNeem%20Spray%20(1L)"
+               class="inline-block mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">
+              Buy Now
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="max-w-xl mx-auto px-6 py-14 bg-green-100 mt-10 rounded-lg shadow">
+    <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+
+    <p class="mb-4"><strong>Phone:</strong> <a href="tel:+918985919818" class="text-green-700 underline">8985 919 818</a></p>
+    <p class="mb-4"><strong>WhatsApp:</strong> <a href="https://wa.me/918985919818" class="text-green-700 underline">Chat with us</a></p>
+    <p class="mb-4"><strong>Email:</strong> <a href="mailto:gnragro@example.com" class="text-green-700 underline">gnragro@example.com</a></p>
+    <p class="mb-8"><strong>Address:</strong> Near Hanuman temple, Rattakanna, Ichchapuram.</p>
+
+    <!-- Simple Contact Form (static demo) -->
+    <form class="grid gap-4">
+      <input type="text" placeholder="Your Name"   class="border rounded p-2 w-full">
+      <input type="email" placeholder="Your Email" class="border rounded p-2 w-full">
+      <textarea rows="4" placeholder="Message"     class="border rounded p-2 w-full"></textarea>
+      <button type="submit" class="bg-green-600 text-white py-2 rounded hover:bg-green-700">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="bg-green-700 text-white text-center py-4 mt-10">
+    © 2025 GNR Agro Agency
+  </footer>
+
+</body>
+</html>
